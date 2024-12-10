@@ -1,0 +1,74 @@
+xdiv {
+    border: 2px solid red;
+}
+
+
+.joinTitle {
+    font-family: "Cinzel", serif;
+    font-weight: bolder;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    padding-bottom: 12px;
+}
+
+.alignCenter {
+    align-content: center;
+    align-items: center;
+    text-align: center; 
+}
+
+.mainMedia{
+    display: grid;
+    grid-template-columns: 32% 18% 25% 25%;
+    width: 100%;
+}
+.mediaContent {
+    display: grid;
+    grid-template-columns: 80px 75%;
+    align-content: center;
+    width: 100%;
+}
+
+.mediaBox {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.mediaText {
+    flex: 1;
+    font-family: "Cinzel", serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: lightsalmon;
+    align-content: center;
+    padding: 3px;
+}
+
+.gitLogo {
+    display: grid;
+    grid-template-columns: 80px 40%; 
+    width: 100%;
+    filter:invert();
+}
+
+@media screen and (width < 1150px){
+    .mainMedia{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        width: 100%;
+        margin-top:10px;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (width < 800px){
+    .mainMedia{
+        display: grid;
+        grid-template-columns: 100%;
+        width: 100%;
+        text-align: left;
+    }
+}

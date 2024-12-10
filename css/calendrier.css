@@ -1,0 +1,83 @@
+
+
+
+.title {
+    font-family: "Cinzel", serif;
+    text-align: center;
+    font-size: 2.5em;
+    margin:auto;
+    font-weight: bolder;
+
+    color: rgb(255, 193, 112);
+}
+
+.yearTitle {
+    font-family: "Cinzel", serif;
+    font-size: 3em;
+}
+
+.calendar {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.months {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.month {
+    flex: 1;
+    border: 1px solid rgb(85, 85, 85);
+    border-radius: 20px;
+    min-width: 290px;
+    color: white;
+}
+
+.monthTitle {
+    font-family: "Cinzel", serif;
+    font-size: 1.6em;
+    text-align: center;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    color: white;
+}
+
+.daysOfWeek {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding-left: 15px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.daysOfWeek div {
+    text-align: right;
+    width: 35px;
+}
+
+.daysContainer {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+
+.daysContainer div {
+    font-family: "Cinzel", serif;
+    width: 35px;
+    height: 26px;
+    text-align: right;
+    padding-top: 5px;
+    padding-right: 9px;
+}
+
+.holiday {
+    background-color: rgba(255, 191, 117, 0.904);
+    color: black;
+    border-radius: 40px;
+    cursor: pointer;
+    font-weight: bolder;
+}

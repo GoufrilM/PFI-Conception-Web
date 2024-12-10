@@ -1,0 +1,52 @@
+xdiv {
+    border: 2px solid red;
+}
+
+
+
+.bigahhTitle {
+    color: white;
+    font-family: "Cinzel", serif;
+    font-weight: 900;
+    font-size: 45px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.smallahhTitle {
+    color: rgb(255, 136, 0);
+    font-family: "Cinzel", serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.contentBox {
+    color: rgb(181, 190, 202);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.video {
+    flex: 2;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+.text {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    flex: 1;
+    font-size: 17px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+.dev {
+    font-family: "Cinzel", serif;
+    color: lightsalmon;
+}
+
+@media screen and (width <= 600px){
+    .contentBox{
+        display: grid;
+    }
+}
